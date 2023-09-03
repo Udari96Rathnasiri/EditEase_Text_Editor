@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" prefHeight="403.0" prefWidth="548.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.SplashWindowController">
+   <children>
+      <ImageView fitHeight="296.0" fitWidth="517.0" layoutX="77.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="53.0" AnchorPane.leftAnchor="77.0" AnchorPane.rightAnchor="76.33334350585938" AnchorPane.topAnchor="54.0">
+         <image>
+            <Image url="@asset/img/WhatsApp%20Image%202023-08-21%20at%2011.14.27%20PM.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

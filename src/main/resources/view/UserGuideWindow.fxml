@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.UserGuideWindowController">
+   <children>
+      <ImageView fitHeight="172.0" fitWidth="166.0" layoutX="-25.0" layoutY="-15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asset/img/WhatsApp%20Image%202023-08-21%20at%2011.14.27%20PM.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="10.0" layoutY="85.0" prefHeight="31.0" prefWidth="465.0" style="-fx-font-weight: bold;" text="   User Guide" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="125.0" layoutY="23.0" prefHeight="31.0" prefWidth="465.0" text="EditEase" AnchorPane.rightAnchor="10.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="28.0" layoutY="147.0" prefHeight="277.0" prefWidth="580.0" text="Welcome to the User Guide for the EditEase Application. This guide will help you navigate and make the most of the features offered by our text editing software. Whether you're a writer, coder, student, or professional, our text editor is designed to meet your needs with efficiency and ease.&#10;&#10;Table of Contents:&#10;&#10;1. Introduction&#10;**Overview of the Text Editor Application&#10;&#10;2. Getting Started&#10;**Installation and Setup&#10;&#10;3. User Interface&#10;**Familiarizing Yourself with the Interface&#10;&#10;4. Creating and Opening Documents&#10;**How to Create a New Document&#10;**How to Open Existing Documents&#10;&#10;5. Editing and Formatting&#10;**Basic Text Editing (Typing, Deleting, Copying, Pasting)&#10;**Formatting Text (Font, Size, Style, Alignment)&#10;**Undo and Redo&#10;&#10;6. Saving and Managing Documents&#10;**Saving Documents&#10;**Saving Documents with Different Formats&#10;**Renaming and Deleting Documents&#10;&#10;7. Collaboration and Sharing&#10;**Real-time Collaboration with Others&#10;**Sharing Documents with Collaborators&#10;&#10;8. Advanced Features&#10;**Search and Replace&#10;**Spell Checking and Grammar Suggestions&#10;**Auto-save and Versions&#10;&#10;9. Customization&#10;**Personalizing the Interface (Themes, Fonts)&#10;**Configuring Preferences&#10;&#10;10. Keyboard Shortcuts&#10;**Quick Key Combinations for Common Actions&#10;&#10;11. Troubleshooting&#10;**Common Issues and Solutions&#10;&#10;12. FAQs&#10;&#10;Answers to Frequently Asked Questions&#10;&#10;1. Introduction:&#10;The Text Editor Application is a versatile tool designed to help you write and edit text documents effortlessly. It offers a range of features tailored to different writing styles and preferences.&#10;&#10;2. Getting Started:&#10;To get started, download and install the Text Editor Application on your device. Follow the installation prompts, and soon you'll be ready to create and edit documents.&#10;&#10;3. User Interface:&#10;The user interface includes menus, toolbars, and the main text editing area. Familiarize yourself with these elements to navigate the application efficiently.&#10;&#10;4. Creating and Opening Documents:&#10;Learn how to create new documents from scratch and open existing ones. Discover various ways to import documents into the editor.&#10;&#10;5. Editing and Formatting:&#10;Master the basics of text manipulation, including typing, deleting, and copying. Explore formatting options to make your text visually appealing.&#10;&#10;6. Saving and Managing Documents:&#10;Understand how to save your work and manage documents effectively. Learn about saving in different formats and organizing your files.&#10;&#10;7. Collaboration and Sharing:&#10;Discover how to collaborate on documents in real-time with colleagues or friends. Share documents securely and work together seamlessly.&#10;&#10;8. Advanced Features:&#10;Explore advanced tools like search and replace, spell checking, and version history. These features enhance your productivity and accuracy.&#10;&#10;9. Customization:&#10;Personalize your editing experience by selecting themes, fonts, and configuring preferences to suit your style.&#10;&#10;10. Keyboard Shortcuts:&#10;Speed up your workflow with keyboard shortcuts for common actions. Memorizing these shortcuts can save you time.&#10;&#10;11. Troubleshooting:&#10;Encounter an issue? Check the troubleshooting section for solutions to common problems.&#10;&#10;12. FAQs:&#10;Find answers to frequently asked questions about the EditEase Application.&#10;&#10;We hope this guide helps you make the most of our EditEase Application. Happy editing!&#10;&#10;If you have any further questions or need assistance, feel free to reach out to our support team at support@email.com.&#10;&#10;Sincerely,&#10;&#10;The EditEase Application Team" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="root" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.AboutUsWindowController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-28.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@asset/img/WhatsApp%20Image%202023-08-21%20at%2011.14.27%20PM.jpeg" />
+         </image>
+      </ImageView>
+      <Group layoutX="37.0" layoutY="108.0">
+         <children>
+            <Label layoutX="0.6728515625" layoutY="2.0" prefHeight="34.0" prefWidth="526.0" text="Welcome to EditEase, version 1.0.0 – Your Creative Companion." />
+            <Label layoutX="0.6728515625" layoutY="20.0" prefHeight="34.0" prefWidth="526.0" text="Our mission is to provide a seamless and inspiring writing experience." />
+            <Label layoutX="0.6728515625" layoutY="54.0" prefHeight="34.0" prefWidth="526.0" style="-fx-font-weight: bold;" text="Version: 1.0.0." />
+            <Label layoutX="0.6728515625" layoutY="71.0" prefHeight="34.0" prefWidth="526.0" style="-fx-font-weight: bold;" text="License: All Rights Reserved" />
+            <Label layoutX="0.6728515625" layoutY="117.0" text="© 2023 TextEditor. All rights reserved." />
+            <Label layoutX="0.6728515625" layoutY="146.0" prefHeight="22.0" prefWidth="507.0" text="Join us in shaping words and stories that matter. Your journey starts here." />
+            <Label layoutX="0.6728515625" layoutY="172.0" text="Sincerely," />
+            <Label layoutX="0.6728515625" layoutY="201.0" text="EditEase Team" />
+         </children>
+      </Group>
+      <Button fx:id="btnClose" layoutX="441.0" layoutY="341.0" mnemonicParsing="false" onAction="#btnCloseOnAction" prefHeight="24.0" prefWidth="123.0" text="Close" />
+      <Label layoutX="139.0" layoutY="35.0" prefHeight="42.0" prefWidth="391.0" style="-fx-font-family: san serif;" text="EditEase">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
