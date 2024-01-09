@@ -13,12 +13,13 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Background;
 import javafx.scene.paint.Color;
 import javafx.scene.web.HTMLEditor;
+import javafx.stage.FileChooser;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javafx.util.Duration;
 
-import java.io.IOException;
+import java.io.*;
 import java.util.Optional;
 
 public class MainViewController {
@@ -28,6 +29,7 @@ public class MainViewController {
     public MenuItem btnUserGuide;
     public MenuItem btnAboutUs;
     public HTMLEditor txtEditor;
+    public MenuItem miSave;
 
     public void initialize(){
         txtEditor.requestFocus();
@@ -95,4 +97,33 @@ public class MainViewController {
 
     }
 
+    public HTMLEditor getTxtEditor() {
+        return txtEditor;
+    }
+
+    public void miSaveOnAction(ActionEvent actionEvent) throws IOException {
+        FileChooser fileChooser = new FileChooser();
+        File folderName = fileChooser.showSaveDialog(root.getScene().getWindow());
+
+        File file = new File(folderName.getPath());
+//        try {
+//            file.createNewFile();
+//            System.out.println(txtEditor.getHtmlText().getBytes());
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
+
+        FileOutputStream fos = new FileOutputStream(file);
+        BufferedOutputStream bos = new BufferedOutputStream(fos);
+
+        try {
+            byte[] bytes = txtEditor.getHtmlText().toString().getBytes();
+            bos.write(bytes);
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }finally{
+            bos.close ();
+        }
+    }
 }

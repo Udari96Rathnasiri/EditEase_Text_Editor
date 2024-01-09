@@ -15,7 +15,7 @@
             <items>
               <MenuItem fx:id="btnNew" mnemonicParsing="false" onAction="#btnNewOnAction" text="New" />
                   <MenuItem mnemonicParsing="false" text="Open" />
-                  <MenuItem mnemonicParsing="false" text="Save" />
+                  <MenuItem fx:id="miSave" mnemonicParsing="false" onAction="#miSaveOnAction" text="Save" />
                   <MenuItem mnemonicParsing="false" text="Save As" />
                   <MenuItem mnemonicParsing="false" text="Print" />
                   <MenuItem fx:id="btnExit" mnemonicParsing="false" onAction="#btnExitOnAction" text="Exit" />

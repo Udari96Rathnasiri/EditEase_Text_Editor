@@ -8,7 +8,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane fx:id="root" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.AboutUsWindowController">
    <children>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-28.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
@@ -18,11 +17,11 @@
       </ImageView>
       <Group layoutX="37.0" layoutY="108.0">
          <children>
-            <Label layoutX="0.6728515625" layoutY="2.0" prefHeight="34.0" prefWidth="526.0" text="Welcome to EditEase, version 1.0.0 – Your Creative Companion." />
+            <Label layoutX="0.6728515625" layoutY="2.0" prefHeight="34.0" prefWidth="526.0" text="Welcome to EditEase, version 0.1.0 – Your Creative Companion." />
             <Label layoutX="0.6728515625" layoutY="20.0" prefHeight="34.0" prefWidth="526.0" text="Our mission is to provide a seamless and inspiring writing experience." />
-            <Label layoutX="0.6728515625" layoutY="54.0" prefHeight="34.0" prefWidth="526.0" style="-fx-font-weight: bold;" text="Version: 1.0.0." />
-            <Label layoutX="0.6728515625" layoutY="71.0" prefHeight="34.0" prefWidth="526.0" style="-fx-font-weight: bold;" text="License: All Rights Reserved" />
-            <Label layoutX="0.6728515625" layoutY="117.0" text="© 2023 TextEditor. All rights reserved." />
+            <Label layoutX="0.6728515625" layoutY="54.0" prefHeight="34.0" prefWidth="526.0" style="-fx-font-weight: bold;" text="Version: 0.1.0." />
+            <Label layoutX="0.6728515625" layoutY="71.0" prefHeight="34.0" prefWidth="526.0" style="-fx-font-weight: bold;" text="License: MIT License" />
+            <Label layoutX="0.6728515625" layoutY="117.0" maxWidth="1.7976931348623157E308" text="Copyright © 2023 EditEase Team. All Rights Reserved." />
             <Label layoutX="0.6728515625" layoutY="146.0" prefHeight="22.0" prefWidth="507.0" text="Join us in shaping words and stories that matter. Your journey starts here." />
             <Label layoutX="0.6728515625" layoutY="172.0" text="Sincerely," />
             <Label layoutX="0.6728515625" layoutY="201.0" text="EditEase Team" />
